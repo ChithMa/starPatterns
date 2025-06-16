@@ -16,28 +16,27 @@ int main (void)
         return 1;
     }
 
-    for (int i = 0; height > i; i++)
+    for (int i = 1; height >= i; i++)
     {
         for (int j = height; j > i; j--)
         {
-            printf(".");
+            printf(" ");
             
             
         }
-        for (int k = 0; k < i+1; k++)
+        for (int k = 0; k < i; k++)
         {
             printf("#");
-            
+
         }
         printf(" ");
-        for (int k = 0; k < i+1; k++)
+        for (int k = 0; k < i; k++)
         {
             printf("#");
             
         }
-        printf("c");
+        // printf("c");
         printf("\n");
-       
-
+    
     }
 }
